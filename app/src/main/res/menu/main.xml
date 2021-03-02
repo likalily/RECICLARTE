@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_sobre_nos"
+        android:orderInCategory="100"
+        android:title="SOBRE NÓS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_compartilhar"
+        android:orderInCategory="200"
+        android:title="COMPARTILHAR"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sair"
+        android:orderInCategory="300"
+        android:title="SAIR"
+        app:showAsAction="never" />
+</menu>

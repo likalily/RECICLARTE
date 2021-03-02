@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Alterar_Cadastro"
+            android:icon="@drawable/ic_baseline_fingerprint_24"
+            android:title="Alterar Cadastro" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_business_24"
+            android:title="Empresas Cadastradas" />
+        <item
+            android:id="@+id/nav_configuracao"
+            android:icon="@drawable/ic_baseline_emoji_events_24"
+            android:title="Nossa Missão" />
+    </group>
+    <item android: title = "Comunicate">
+        <menu>
+            android:id="@+id/nav_Midias_Sociais"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Mídias Sociais"
+
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_Instagran"
+                android:icon="@drawable/rectangle_47"
+                android:title="Instagran" />
+            <item
+                android:id="@+id/nav_Twitter"
+                android:icon="@drawable/twitter"
+                android:title="Twitter" />
+        </menu>
+    </item>
+</menu>
